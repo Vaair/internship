@@ -31,7 +31,7 @@ struct Ad: Codable {
 struct Icon: Codable {
     let resolution: String
     
-    enum CodingKeys: String, CodingKey{ //для переименования ключей
+    enum CodingKeys: String, CodingKey{ 
         case resolution = "52x52"
     }
 }
